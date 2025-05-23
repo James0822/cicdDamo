@@ -13,7 +13,7 @@ pipeline {
 
         stage("Checkout from SCM"){
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/James0822/awscicd_Test'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/James0822/cicdDamo'
             }
         }
         stage("Build Application"){
